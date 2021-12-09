@@ -1,0 +1,87 @@
+/** | Main **/
+body {
+
+}
+
+
+/** Card is:
+  -CARD:
+      -IMAGE,
+      -CARD-BODY:
+        -CARD-CONTENT:
+          -HEADER,
+          -DESCRIPTION
+        -CARD-SUBSCRIPTION:
+          -ICON,
+          -PLAN:
+            -PLAN-TYPE,
+            -PLAN-PRICE
+          -CHANGE
+        -CARD-PAYMENT-BTN,
+        -CARD-CANCEL-BTN
+**/
+/** | Card **/
+.card {
+
+}
+
+  /** || Image **/
+  .card-img {
+
+  }
+
+  /** || Body **/
+  .card-body {
+
+  }
+
+    /** || Content **/
+    .card-content {
+
+    }
+      .card-content-header {
+
+      }
+      .card-content-description {
+
+      }
+
+    /** || Subscription **/
+    .card-subscription {
+
+    }
+      .card-subscription-icon {
+
+      }
+      /** ||| Subscription plan **/
+      .card-subscription-plan {
+
+      }
+        .card-subscription-plan-header {
+
+        }
+        .card-subscription-plan-description {
+
+        }
+      .card-subscription-change {
+
+      }
+
+    /** || Payment **/
+    .card-payment {
+
+    }
+    /** || Cancel **/
+    .card-cancel {
+
+    }
+
+
+/** | Footer **/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+  .attribution a {
+      color: hsl(228, 45%, 44%); 
+  }
