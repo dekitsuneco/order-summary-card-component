@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
 /** | Main **/
 body {
   background: hsl(225, 100%, 94%);
@@ -43,6 +45,9 @@ body {
   border-radius: 2rem;
 
   padding: 2rem;
+  font-family: 'Outfit', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500;
 }
 
   /** || Image **/
@@ -68,7 +73,7 @@ body {
       align-items: center;
     }
       .card-content-header {
-
+        font-weight: 900;
       }
       .card-content-description {
 
@@ -76,6 +81,7 @@ body {
 
     /** || Subscription **/
     .card-subscription {
+      background:   hsl(225, 100%, 98%);
       width: 100%;
 
       display: flex;
@@ -94,7 +100,7 @@ body {
         line-height: 0;
       }
         .card-subscription-plan-header {
-
+          font-weight: 700;
         }
         .card-subscription-plan-description {
 
@@ -106,10 +112,14 @@ body {
     /** || Payment **/
     .card-payment {
       display: block;
+
+      font-weight: 900;
     }
     /** || Cancel **/
     .card-cancel {
       display: block;
+
+      font-weight: 900;
     }
 
 
