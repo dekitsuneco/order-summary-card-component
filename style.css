@@ -38,7 +38,8 @@ body {
         -CARD-CANCEL-BTN
 **/
 .card-element {
-  margin: 0.6rem 7%;
+  /* Space between mane sections of the card*/
+  margin: .6rem 7%;
 }
 
 /** | Card **/
@@ -147,6 +148,9 @@ body {
       color: hsl(225, 100%, 98%);
       font-weight: 900;
 
+      box-shadow: 5px 5px 10px 2px hsl(224, 23%, 55%);
+      outline: none;
+      border-width: 0;
       border-radius: .5rem;
     }
     /** || Cancel **/
@@ -158,7 +162,7 @@ body {
       
       color: hsl(224, 23%, 55%);
       font-weight: 900;
-      
+
       border-style: none;
     }
 
