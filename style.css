@@ -32,6 +32,10 @@ body {
         -CARD-PAYMENT-BTN,
         -CARD-CANCEL-BTN
 **/
+.card-element {
+  margin: 0.6rem 7%;
+}
+
 /** | Card **/
 .card {
   background: hsl(225, 100%, 98%);
@@ -41,10 +45,10 @@ body {
   justify-content: center;
   align-items: center;
   
-  margin: 3rem 0;
+  width: 25rem;
+  margin: 3rem auto;
   border-radius: 2rem;
 
-  padding: 2rem;
   font-family: 'Outfit', sans-serif;
   font-family: 'Red Hat Display', sans-serif;
   font-weight: 500;
@@ -53,9 +57,12 @@ body {
   /** || Image **/
   .card-img {
     width: 100%;
-
-    background: hsl(245, 75%, 52%);
+    border-radius: 2rem 2rem 0 0;
   }
+    .card-img img {
+      width: 100%;
+      border-radius: 2rem 2rem 0 0;
+    }
 
   /** || Body **/
   .card-body {
@@ -63,6 +70,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    padding: 0 2rem 1.3rem;
   }
 
     /** || Content **/
@@ -76,16 +85,21 @@ body {
         font-weight: 900;
       }
       .card-content-description {
-
+        padding: 0;
+        margin: 0;
+        text-align: center;
       }
 
     /** || Subscription **/
     .card-subscription {
-      background:   hsl(225, 100%, 98%);
+      background:   hsl(230, 7%, 83%);
       width: 100%;
+      border-radius: .5rem;
 
       display: flex;
+      align-items: center;
       justify-content: space-around;
+      flex-wrap: wrap;
     }
       .card-subscription-icon {
 
@@ -101,9 +115,12 @@ body {
       }
         .card-subscription-plan-header {
           font-weight: 700;
+          padding: 0;
+          margin: 1.5em 0 0 0;
         }
         .card-subscription-plan-description {
-
+          padding: 0;
+          margin: 1.2rem 0 1.5rem 0;
         }
       .card-subscription-change {
 
@@ -112,13 +129,23 @@ body {
     /** || Payment **/
     .card-payment {
       display: block;
+      width: 100%;
+      height: 3rem;
+      background: hsl(245, 75%, 52%);
+      border-radius: .5rem;
 
+      color: hsl(225, 100%, 98%);
       font-weight: 900;
     }
     /** || Cancel **/
     .card-cancel {
       display: block;
+      width: 100%;
+      height: 1rem;
+      background: hsl(225, 100%, 98%);
+      border-style: none;
 
+      color: hsl(224, 23%, 55%);
       font-weight: 900;
     }
 
