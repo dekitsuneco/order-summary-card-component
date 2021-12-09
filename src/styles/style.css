@@ -2,7 +2,8 @@
 
 /** | Main **/
 body {
-  background: hsl(225, 100%, 94%);
+  background-color: hsl(225, 100%, 94%);
+  background-image: url('../assets/images/pattern-background-desktop.svg');
 
   width: 100vw;
   margin: 0;
