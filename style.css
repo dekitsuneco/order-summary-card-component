@@ -137,6 +137,10 @@ body {
           color: hsl(224, 23%, 55%);
         }
       /*.card-subscription-change { }*/
+        .card-subscription-change:active {
+          text-decoration: none;
+          color: hsl(245, 68%, 58%);
+        }
 
     /** || Payment **/
     .card-payment {
@@ -153,6 +157,13 @@ body {
       border-radius: .5rem;
       box-shadow: 5px 5px 10px 2px hsl(224, 23%, 55%);
     }
+      .card-payment:hover {
+        cursor: pointer;
+      }
+      .card-payment:active {
+        cursor: pointer;
+        background:hsl(245, 68%, 58%);
+      }
     /** || Cancel **/
     .card-cancel {
       background: hsl(225, 100%, 98%);
@@ -165,6 +176,13 @@ body {
 
       border-style: none;
     }
+      .card-cancel:hover {
+        cursor: pointer;
+      }
+      .card-cancel:active {
+        cursor: pointer;
+        color:hsl(223, 47%, 23%);
+      }
 
 
 /** | Footer **/
