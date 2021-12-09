@@ -196,6 +196,9 @@ body {
 
 /** | Media queries **/
 @media (max-width: 425px) {
+  body {
+    background-image: url('../assets/images/pattern-background-mobile.svg');
+  }
   .card {
     width: 20rem;
 
