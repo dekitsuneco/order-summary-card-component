@@ -47,17 +47,25 @@ body {
 
   /** || Image **/
   .card-img {
-    
+    width: 100%;
+
+    background: hsl(245, 75%, 52%);
   }
 
   /** || Body **/
   .card-body {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
     /** || Content **/
     .card-content {
-
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
       .card-content-header {
 
@@ -68,14 +76,22 @@ body {
 
     /** || Subscription **/
     .card-subscription {
+      width: 100%;
 
+      display: flex;
+      justify-content: space-around;
     }
       .card-subscription-icon {
 
       }
       /** ||| Subscription plan **/
       .card-subscription-plan {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
+        line-height: 0;
       }
         .card-subscription-plan-header {
 
@@ -89,11 +105,11 @@ body {
 
     /** || Payment **/
     .card-payment {
-
+      display: block;
     }
     /** || Cancel **/
     .card-cancel {
-
+      display: block;
     }
 
 
