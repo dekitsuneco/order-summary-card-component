@@ -103,7 +103,7 @@ body {
 
     /** || Subscription **/
     .card-subscription {
-      background: hsl(229, 100%, 96%);
+      background: hsl(229, 100%, 97%);
       width: 100%;
       
       display: flex;
@@ -124,7 +124,7 @@ body {
         line-height: 0;
       }
         .card-subscription-plan-header {
-          margin: 1.5em 0 0 0;
+          margin: 1.5rem 0 0 0;
 
           padding: 0;
           color: hsl(223, 47%, 23%);
@@ -148,10 +148,10 @@ body {
       color: hsl(225, 100%, 98%);
       font-weight: 900;
 
-      box-shadow: 5px 5px 10px 2px hsl(224, 23%, 55%);
       outline: none;
       border-width: 0;
       border-radius: .5rem;
+      box-shadow: 5px 5px 10px 2px hsl(224, 23%, 55%);
     }
     /** || Cancel **/
     .card-cancel {
@@ -175,3 +175,15 @@ body {
   .attribution a {
       color: hsl(228, 45%, 44%); 
   }
+
+/** | Media queries **/
+@media (max-width: 425px) {
+  .card {
+    width: 20rem;
+
+    margin: 2rem auto;
+  }
+    .card-body {
+      padding: 0 1.2rem 1.3rem;
+    }
+}
